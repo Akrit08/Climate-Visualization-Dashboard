@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <link rel="icon" href="data:;base64,iVBORwOKGO=" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js" charset="utf-8"></script>
+    <title>Climate Visualization Dashboard</title>
+    <script src="climateVis.js" type="text/javascript"></script>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto;
+            background-color: rgba(0, 120, 180, 1.0);
+        }
+
+        .grid-item {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            font-size: 18px;
+            padding-top: 20px;
+            text-align: justify;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .grid-item1 {
+            padding-left: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div id="optionSpace" class="grid-item"></div>
+        <div id="index" class="grid-item">Index</div>
+        <div id="space" class="grid-item1"></div>
+        <div id="indexDisplay" class=" grid-item"></div>
+    </div>
+</body>
+
+</html>
